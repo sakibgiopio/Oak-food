@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oak website</title>
+    <!-- swiper-js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- swiper-js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/shopping-cart.css">
+    <link rel="stylesheet" href="assets/css/shopping-cart-responsive.css">
+</head>
+<body>
+    <!-- nav-secion -->
+    <div class="header-all">
+        <section class="nav-section">
+            <div class="nav">
+                <a href="#">
+                    <img class="logo" width="60px" height="60px" src="assets/img/logo.svg" alt="logo"> 
+                </a> 
+    
+                <input type="checkbox" id="check" name="nav-toggle"> 
+                <label for="check">
+                    <span class="menu">
+                        <img src="assets/img/icon/menu-icon.svg" alt="icon">
+                    </span>
+                    <span class="menu-close">
+                        <img src="assets/img/icon/menu-x.svg" alt="icon">
+                    </span>
+                </label>
+    
+                <ul class="nav-list-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Product</a>
+                    </li>
+                    <li>
+                        <a href="#">Product Categories</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Story</a>
+                    </li>
+                    <li>
+                        <a class="nav-active" href="#">Blog</a>
+                    </li>
+                </ul> 
+                <div class="nav-icons">
+                    <a href="#">
+                        <img width="23px" height="23px" src="assets/img/icon/ser-icon.svg" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img width="23px" height="23px" src="assets/img/icon/user-icon.svg" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img width="23px" height="23px" src="assets/img/icon/in-icon.svg" alt="icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- nav-secion -->
+        <!-- hero-section -->
+        <div class="hero-section" style="background-image: url(./assets/img/shopping-cart-bg.png);">
+            <div class="container">
+                <div class="hero-all-content hero-all-content-extra">
+                    <p class="font-work">Shopping</p>
+                    <h4 class="font-jakarta">Shopping Cart</h4>
+                </div>
+            </div>
+        </div> 
+        <!-- hero-section --> 
+    </div>
+    <!-- shopping-cart-section -->
+    <section class="shopping-cart-section">
+        <div class="container">
+            <div class="shopping-cart-content">
+                <div class="shopping-cart-col font-jakarta">
+                    <h3>Shopping Cart</h3>
+                    <span class="font-work">Product (15)</span>
+                    <!-- item -->
+                    <div class="shopping-product">
+                        <!-- left-side-item -->
+                        <div class="product-price-item">
+                            <img src="assets/img/shopping-cart-product.jpg" alt="img">
+                            <div class="">
+                                <h4>Beef Chuck Diced 1KG</h4>
+                                <p class="font-work">Spain <span>75cl</span></p>
+                                <div class="shopping-price font-work">
+                                    <div class="">
+                                        $599 
+                                    </div>
+                                    <span>$499,99</span> 
+                                </div>
+                                <div class="price-add font-work">
+                                    <div class="minus-icon">-</div>
+                                    <span>5</span>
+                                    <div class="plus-icon">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left-side-item -->
+                        <!-- right-side-item -->
+                        <div class="shopping-cart-right">
+                            <a href="#" class="shopping-delete">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.25 4.25L11.5995 13.3569C11.5434 14.1418 10.8903 14.75 10.1033 14.75H3.89668C3.10972 14.75 2.45656 14.1418 2.40049 13.3569L1.75 4.25M5.5 7.25V11.75M8.5 7.25V11.75M9.25 4.25V2C9.25 1.58579 8.91421 1.25 8.5 1.25H5.5C5.08579 1.25 4.75 1.58579 4.75 2V4.25M1 4.25H13" stroke="#101828" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="price-text">
+                                <span class="font-jakarta">€998</span>
+                                <p class="font-work">Tomorrow at your home</p>
+                            </div>
+                        </div>
+                        <!-- right-side-item -->
+                    </div>
+                    <!-- item -->
+                    <!-- item -->
+                    <div class="shopping-product">
+                        <!-- left-side-item -->
+                        <div class="product-price-item">
+                            <img src="assets/img/shopping-cart-product.jpg" alt="img">
+                            <div class="">
+                                <h4>Beef Chuck Diced 1KG</h4>
+                                <p class="font-work">Spain <span>75cl</span></p>
+                                <div class="shopping-price font-work"><span>$599</span> $499,99</div>
+                                <div class="price-add font-work">
+                                    <div class="minus-icon">-</div>
+                                    <span>5</span>
+                                    <div class="plus-icon">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left-side-item -->
+                        <!-- right-side-item -->
+                        <div class="shopping-cart-right">
+                            <a href="#" class="shopping-delete">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.25 4.25L11.5995 13.3569C11.5434 14.1418 10.8903 14.75 10.1033 14.75H3.89668C3.10972 14.75 2.45656 14.1418 2.40049 13.3569L1.75 4.25M5.5 7.25V11.75M8.5 7.25V11.75M9.25 4.25V2C9.25 1.58579 8.91421 1.25 8.5 1.25H5.5C5.08579 1.25 4.75 1.58579 4.75 2V4.25M1 4.25H13" stroke="#101828" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="price-text">
+                                <span class="font-jakarta">€998</span>
+                                <p class="font-work">Tomorrow at your home</p>
+                            </div>
+                        </div>
+                        <!-- right-side-item -->
+                    </div>
+                    <!-- item -->
+                    <!-- item -->
+                    <div class="shopping-product">
+                        <!-- left-side-item -->
+                        <div class="product-price-item">
+                            <img src="assets/img/shopping-cart-product.jpg" alt="img">
+                            <div class="">
+                                <h4>Beef Chuck Diced 1KG</h4>
+                                <p class="font-work">Spain <span>75cl</span></p>
+                                <div class="shopping-price font-work"><span>$599</span> $499,99</div>
+                                <div class="price-add font-work">
+                                    <div class="minus-icon">-</div>
+                                    <span>5</span>
+                                    <div class="plus-icon">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left-side-item -->
+                        <!-- right-side-item -->
+                        <div class="shopping-cart-right">
+                            <a href="#" class="shopping-delete">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.25 4.25L11.5995 13.3569C11.5434 14.1418 10.8903 14.75 10.1033 14.75H3.89668C3.10972 14.75 2.45656 14.1418 2.40049 13.3569L1.75 4.25M5.5 7.25V11.75M8.5 7.25V11.75M9.25 4.25V2C9.25 1.58579 8.91421 1.25 8.5 1.25H5.5C5.08579 1.25 4.75 1.58579 4.75 2V4.25M1 4.25H13" stroke="#101828" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="price-text">
+                                <span class="font-jakarta">€998</span>
+                                <p class="font-work">Tomorrow at your home</p>
+                            </div>
+                        </div>
+                        <!-- right-side-item -->
+                    </div>
+                    <!-- item -->
+                    <!-- item -->
+                    <div class="shopping-product shopping-product-extra">
+                        <!-- left-side-item -->
+                        <div class="product-price-item">
+                            <img src="assets/img/shopping-cart-product.jpg" alt="img">
+                            <div class="">
+                                <h4>Beef Chuck Diced 1KG</h4>
+                                <p class="font-work">Spain <span>75cl</span></p>
+                                <div class="shopping-price font-work"><span>$599</span> $499,99</div>
+                                <div class="price-add font-work">
+                                    <div class="minus-icon">-</div>
+                                    <span>5</span>
+                                    <div class="plus-icon">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left-side-item -->
+                        <!-- right-side-item -->
+                        <div class="shopping-cart-right">
+                            <a href="#" class="shopping-delete">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.25 4.25L11.5995 13.3569C11.5434 14.1418 10.8903 14.75 10.1033 14.75H3.89668C3.10972 14.75 2.45656 14.1418 2.40049 13.3569L1.75 4.25M5.5 7.25V11.75M8.5 7.25V11.75M9.25 4.25V2C9.25 1.58579 8.91421 1.25 8.5 1.25H5.5C5.08579 1.25 4.75 1.58579 4.75 2V4.25M1 4.25H13" stroke="#101828" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <div class="price-text">
+                                <span class="font-jakarta">€998</span>
+                                <p class="font-work">Tomorrow at your home</p>
+                            </div>
+                        </div>
+                        <!-- right-side-item -->
+                    </div>
+                    <!-- item -->
+                    <!-- apply-coupon -->
+                    <div class="apply-coupon">
+                        <h3 class="font-jakarta">Apply a Coupon Code</h3>
+                        <div class="apply-submite">
+                            <input type="text" id="apply" placeholder="Enter Coupon Code">
+                            <div class="apply-btn font-jakarta">
+                                <a href="#">Apply Coupon</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- apply-coupon -->
+                </div>
+                <!-- shopping-cart-right-item -->
+                <div class="shopping-right-item">
+                    <div class="overview-content">
+                        <h4 class="overview-title font-jakarta">Your Overview</h4>
+                        <div class="free-delivery font-jakarta">
+                            <span>
+                                <svg width="27" height="18" viewBox="0 0 27 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_229_483)">
+                                    <path d="M25.5518 8.12672L25.5517 8.12656L24.522 6.697C24.5219 6.6969 24.5219 6.69679 24.5218 6.69668C24.2821 6.36009 23.9655 6.08548 23.5985 5.89563C23.2313 5.70572 22.8242 5.60609 22.4108 5.605H22.4105H18.1305V3.565C18.1305 2.87544 17.8566 2.21412 17.369 1.72652C16.8814 1.23893 16.2201 0.965002 15.5305 0.965002L3.56055 0.965002L3.56027 0.965003C2.87137 0.966924 2.21124 1.24144 1.72411 1.72857C1.23698 2.21569 0.962468 2.87583 0.960547 3.56472V3.565V13.505C0.960547 13.9293 1.12912 14.3363 1.42918 14.6364C1.72923 14.9364 2.1362 15.105 2.56055 15.105H3.6953C3.78946 15.6302 4.06044 16.1086 4.46457 16.4597C4.89066 16.8298 5.43611 17.0337 6.00055 17.0337C6.56498 17.0337 7.11043 16.8298 7.53653 16.4597C7.94066 16.1086 8.21163 15.6302 8.30579 15.105H18.6953C18.7895 15.6302 19.0604 16.1086 19.4646 16.4597C19.8907 16.8298 20.4361 17.0337 21.0005 17.0337C21.565 17.0337 22.1104 16.8298 22.5365 16.4597C22.9407 16.1086 23.2116 15.6302 23.3058 15.105H24.4405C24.8649 15.105 25.2719 14.9364 25.5719 14.6364C25.872 14.3363 26.0405 13.9293 26.0405 13.505V9.635L26.0405 9.63453C26.038 9.09339 25.8672 8.56645 25.5518 8.12672ZM6.00055 15.835C5.7731 15.835 5.55076 15.7676 5.36164 15.6412C5.17252 15.5148 5.02513 15.3352 4.93809 15.1251C4.85104 14.915 4.82827 14.6837 4.87264 14.4606C4.91702 14.2376 5.02654 14.0327 5.18737 13.8718C5.3482 13.711 5.55311 13.6015 5.77619 13.5571C5.99927 13.5127 6.2305 13.5355 6.44063 13.6225C6.65077 13.7096 6.83037 13.857 6.95674 14.0461C7.0831 14.2352 7.15055 14.4576 7.15055 14.685C7.15055 14.99 7.02939 15.2825 6.81372 15.4982C6.59805 15.7138 6.30555 15.835 6.00055 15.835ZM16.9305 13.905H8.22238C8.06414 13.4581 7.77452 13.0686 7.39073 12.7883C6.98714 12.4936 6.50031 12.3347 6.00055 12.3347C5.50078 12.3347 5.01395 12.4936 4.61037 12.7883C4.22657 13.0686 3.93695 13.4581 3.77871 13.905H2.56055C2.45446 13.905 2.35272 13.8629 2.2777 13.7878C2.20269 13.7128 2.16055 13.6111 2.16055 13.505V3.565C2.16055 3.1937 2.30805 2.8376 2.5706 2.57505C2.83315 2.3125 3.18924 2.165 3.56055 2.165H15.5305C15.9018 2.165 16.2579 2.3125 16.5205 2.57505C16.783 2.8376 16.9305 3.1937 16.9305 3.565V13.905ZM21.0005 15.835C20.7731 15.835 20.5508 15.7676 20.3616 15.6412C20.1725 15.5148 20.0251 15.3352 19.9381 15.1251C19.851 14.915 19.8283 14.6837 19.8726 14.4606C19.917 14.2376 20.0265 14.0327 20.1874 13.8718C20.3482 13.711 20.5531 13.6015 20.7762 13.5571C20.9993 13.5127 21.2305 13.5355 21.4406 13.6225C21.6508 13.7096 21.8304 13.857 21.9567 14.0461C22.0831 14.2352 22.1505 14.4576 22.1505 14.685C22.1505 14.99 22.0294 15.2825 21.8137 15.4982C21.5981 15.7138 21.3055 15.835 21.0005 15.835ZM24.8405 13.505C24.8405 13.6111 24.7984 13.7128 24.7234 13.7878C24.6484 13.8629 24.5466 13.905 24.4405 13.905H23.2224C23.0641 13.4581 22.7745 13.0686 22.3907 12.7883C21.9871 12.4936 21.5003 12.3347 21.0005 12.3347C20.5008 12.3347 20.0139 12.4936 19.6104 12.7883C19.2266 13.0686 18.937 13.4581 18.7787 13.905H18.1305V6.805H22.4102C22.6329 6.80655 22.8522 6.86062 23.0501 6.96282C23.2481 7.06507 23.4192 7.21261 23.5494 7.39344L23.6305 7.335L23.5494 7.39345L24.5789 8.82272C24.579 8.82282 24.579 8.82292 24.5791 8.82301C24.747 9.06075 24.8383 9.34417 24.8405 9.63525V13.505Z" fill="#323B49" stroke="#323B49" stroke-width="0.2"/>
+                                    <path d="M22.0293 9.20502H20.0293C19.8967 9.20502 19.7695 9.15234 19.6757 9.05857C19.582 8.9648 19.5293 8.83763 19.5293 8.70502C19.5293 8.57241 19.582 8.44523 19.6757 8.35146C19.7695 8.2577 19.8967 8.20502 20.0293 8.20502H22.0293C22.1619 8.20502 22.2891 8.2577 22.3828 8.35146C22.4766 8.44523 22.5293 8.57241 22.5293 8.70502C22.5293 8.83763 22.4766 8.9648 22.3828 9.05857C22.2891 9.15234 22.1619 9.20502 22.0293 9.20502Z" fill="#323B49"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_229_483">
+                                    <rect width="27" height="18" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>    
+                            </span>
+                            <p>
+                                Free Delivery Over <span>€ 60</span>
+                            </p>
+                        </div>
+                        <div class="free-delivery font-jakarta">
+                            <span>
+                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 7V11.5L14.875 14.875M21.625 11.5C21.625 17.0919 17.0919 21.625 11.5 21.625C5.90812 21.625 1.375 17.0919 1.375 11.5C1.375 5.90812 5.90812 1.375 11.5 1.375C17.0919 1.375 21.625 5.90812 21.625 11.5Z" stroke="#323B49" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <p>
+                                Standard Delivery <span class="delivery-date">23 Apr - 24 Apr</span>
+                            </p> 
+                        </div>
+                        <div class="shopping-discount-price font-jakarta">
+                            <div class="total-product">
+                                <h5>Total Product (15)</h5>
+                                <span>€ 1500</span>
+                            </div>
+                            <div class="total-product">
+                                <h5 class="active-color">Discount</h5>
+                                <span class="active-color">€ 300</span>
+                            </div>
+                            <div class="total-product">
+                                <h5>Subtotal</h5>
+                                <span>€ 1200</span>
+                            </div>
+                            <div class="total-product">
+                                <h5>Vat (21%)</h5>
+                                <span>€ 252</span>
+                            </div>
+                            <div class="total-product">
+                                <h5>Shipping Fee</h5>
+                                <span>€ 1,99</span>
+                            </div>
+                            <div class="total-product total-product-extra">
+                                <h5>Total</h5>
+                                <span>€ 1453,99</span>
+                            </div>
+                        </div>
+
+                        <div class="continue-btn">
+                            <a href="#">Continue Shipping</a>
+                        </div>
+
+                        <div class="social-icon">
+                            <a href="#">
+                                <img src="assets/img/paypal-icon.jpg" alt="icon">
+                            </a>
+                            <a href="#">
+                                <img src="assets/img/stripe-icon.jpg" alt="icon">
+                            </a>
+                            <a href="#">
+                                <img src="assets/img/ideal-icon.jpg" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                    <p class="shopping-bottom-text font-work">You can always cancel the purchase within 14 days. More
+                        information
+                    </p>
+                </div>
+                <!-- shopping-cart-right-item -->
+            </div>
+        </div>
+    </section>
+    <!-- shopping-cart-section -->
+    <!-- footer-section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-all-content">
+                <div class="footer-leftsite">
+                    <a href="#">
+                        <img class="footer-logo" width="74px" height="74px" src="assets/img/footer-logo.png" alt="logo">
+                    </a>
+                    <p class="font-poppins">successfully completed over 200 
+                        large-scale projects for clients in 
+                        Bangladesh, including a significant 
+                        number of SaaS companies, 
+                        thriving startups, and educational 
+                        establishments.
+                    </p>
+                    <div class="footer-brand-logo">
+                        <a href="#">
+                            <img src="assets/img/paypal.png" alt="logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/stripe.png" alt="logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/id.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="nix-logo">
+                        <a href="#">
+                            <img src="assets/img/nix.png" alt="logo">
+                        </a>
+                        <span>< 18 years we do not sell alcohol < 25 years, show your ID</span>
+                    </div>
+                </div>
+                <div class="footer-rightsite">
+                    <div class="footer-all-page-content">
+                        <div class="footer-page">
+                            <h4>Pages</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-page footer-item">
+                            <h4>Food</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Spanish Foods</a>
+                                </li>
+                                <li>
+                                    <a href="#">Spanish Drinks</a>
+                                </li>
+                                <li>
+                                    <a href="#">Spanish Hampers & Gifts</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kitchenware</a>
+                                </li> 
+                            </ul>
+                        </div> 
+                        <div class="footer-page footer-social-item">
+                            <h4>Contact</h4>
+                            <div class="social">
+                                <a href="#">
+                                    <img src="assets/img/icon/fb-icon.svg" alt="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/icon/towi.svg" alt="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/icon/lind.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="social-id">
+                                <div class="email-phone">
+                                    <img src="assets/img/icon/phone.svg" alt="icon">
+                                    <span>+880 1728247398</span>
+                                </div>
+                                <div class="email-phone">
+                                    <img src="assets/img/icon/email.svg" alt="icon">
+                                    <span>info@example.com</span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="footer-subscribe">
+                        <div class="input-button">
+                            <input type="text" placeholder="Your Email">
+                            <a href="#">
+                                Subscribe 
+                            </a>
+                        </div>
+                        <span>Get 15% of your first order by subscribing to our newsletter</span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>

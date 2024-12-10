@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oak website</title>
+    <!-- swiper-js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- swiper-js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/payment-method.css">
+    <link rel="stylesheet" href="assets/css/shopping-cart-responsive.css">
+</head>
+<body>
+    <!-- nav-secion -->
+    <div class="header-all">
+        <section class="nav-section">
+            <div class="nav">
+                <a href="#">
+                    <img class="logo" width="60px" height="60px" src="assets/img/logo.svg" alt="logo"> 
+                </a> 
+    
+                <input type="checkbox" id="check" name="nav-toggle"> 
+                <label for="check">
+                    <span class="menu">
+                        <img src="assets/img/icon/menu-icon.svg" alt="icon">
+                    </span>
+                    <span class="menu-close">
+                        <img src="assets/img/icon/menu-x.svg" alt="icon">
+                    </span>
+                </label>
+    
+                <ul class="nav-list-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Product</a>
+                    </li>
+                    <li>
+                        <a href="#">Product Categories</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Story</a>
+                    </li>
+                    <li>
+                        <a class="nav-active" href="#">Blog</a>
+                    </li>
+                </ul> 
+                <div class="nav-icons">
+                    <a href="#">
+                        <img width="23px" height="23px" src="assets/img/icon/ser-icon.svg" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img width="23px" height="23px" src="assets/img/icon/user-icon.svg" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img width="23px" height="23px" src="assets/img/icon/in-icon.svg" alt="icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- nav-secion -->
+        <!-- hero-section -->
+        <div class="hero-section" style="background-image: url(./assets/img/shopping-cart-bg.png);">
+            <div class="container">
+                <div class="hero-all-content hero-all-content-extra">
+                    <p class="font-work">Shopping</p>
+                    <h4 class="font-jakarta">Shopping Cart</h4>
+                </div>
+            </div>
+        </div> 
+        <!-- hero-section --> 
+    </div>
+    <!-- delivery-section -->
+    <section class="shopping-cart-section">
+        <div class="container">
+            <div class="delevery-item font-jakarta">
+                <div class="delivery-top-text delivery-text-active">
+                    <p>Delivery</p>
+                    <span>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.25 16.25L11.25 21.25L23.75 8.75" stroke="#36B37E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+                    </span>
+                </div>
+                <div class="delivery-top-text delivery-text-active">
+                    <p>Facts</p>
+                    <span>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.25 16.25L11.25 21.25L23.75 8.75" stroke="#36B37E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg> 
+                    </span>
+                </div>
+                <div class="delivery-top-text delivery-top-text-extra">
+                    <p>Payment Method</p>
+                </div> 
+            </div>
+            <div class="delivery-title font-jakarta">
+                <h3>Payment Method</h3>
+            </div>
+            <div class="shopping-cart-content">
+                <div class="">
+                    <div class="delivery-section">
+
+                        <div class="variant-item">
+                            <div class="redio-item redio-item-active">
+                                <label for="check-01" class="check-item"> 
+                                    <input class="optprice" id="check-01" type="radio" name="option[ipc]" value="ipcv1" data-qty="300" data-optionid="ipc" data-valueid="ipcv1" data-price="29.95">
+                                    <div class="check-rounded"></div>  
+                                    <div class="payment-text font-work">iDEAL</div>
+                                </label>  
+                            </div>
+                            <div class="redio-item">
+                                <label for="check-02" class="check-item"> 
+                                    <input class="optprice" id="check-02" type="radio" name="option[ipc]" value="ipcv1" data-qty="300" data-optionid="ipc" data-valueid="ipcv1" data-price="29.95"> 
+                                    <div class="check-rounded"></div>  
+                                    <div class="payment-text font-work">Credit Card</div>
+                                </label> 
+                            </div>
+                            <div class="redio-item">
+                                <label for="check-03" class="check-item"> 
+                                    <input class="optprice" id="check-03" type="radio" name="option[ipc]" value="ipcv1" data-qty="300" data-optionid="ipc" data-valueid="ipcv1" data-price="29.95"> 
+                                    <div class="check-rounded"></div>  
+                                    <div class="payment-text font-work">Cash on Delivery</div>
+                                </label> 
+                            </div> 
+                        </div> 
+
+                        <div class="facts-email font-jakarta">
+                            <label for="email">Card Number</label>
+                            <input class="font-work" type="text" id="email" placeholder="1234 5678 1234 1234">
+                        </div>
+                        <div class="facts-name-col">
+                           <div class="facts-email font-jakarta">
+                               <label for="first-name">Expiration Date</label>
+                               <input class="font-work" type="text" id="first-name" placeholder="MM/jj">
+                           </div>
+                           <div class="facts-email font-jakarta">
+                               <label for="last-name">Security Code</label>
+                               <input class="font-work" type="text" id="last-name" placeholder="3 jcddh">
+                           </div>
+                        </div>
+                        <div class="delivery-address-text font-jakarta">
+                            <div class="facts-email font-jakarta">
+                                <label for="email-02">Name on Card</label>
+                                <input class="font-work" type="text" id="email-02" placeholder="j. Janssen">
+                            </div>
+                            
+                            <div class="delevery-address-text">
+                                <div class="">
+                                    <h3>Delivery Address</h3>
+                                    <p class="font-work">Example Address 125, city name,<br>
+                                        465NZ Steenbergen
+                                    </p> 
+                                </div>
+                                <div class="">
+                                    <h3>Contact Details</h3>
+                                    <p class="font-work">examplename@gmail.com<br>
+                                        1234 1234 1234
+                                    </p> 
+                                </div>
+                            </div>
+                        </div>  
+                    </div> 
+
+                    <div class="delivery-item-btn font-jakarta">
+                        <div class="next-btn">
+                            <a href="#">
+                                <span>
+                                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 15L1 8M1 8L8 1M1 8L19 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                                </span>
+                                Previous Step
+                            </a>
+                        </div>
+                        <div class="next-btn next-btn-extra">
+                            <a href="#"> 
+                                Pay
+                                <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 5L21 12M21 12L14 19M21 12L3 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+                <!-- delivery-section-item -->
+                <div class="shopping-right-item">
+                    <div class="overview-content">
+                        <h4 class="overview-title font-jakarta">Your Overview</h4>
+                         
+                        <div class="shopping-discount-price font-jakarta">
+                            <div class="total-product">
+                                <h5>Total Product (15)</h5>
+                                <span>€ 1500</span>
+                            </div>
+                            <div class="total-product">
+                                <h5 class="active-color">Discount</h5>
+                                <span class="active-color">€ 300</span>
+                            </div>
+                            <div class="total-product">
+                                <h5>Subtotal</h5>
+                                <span>€ 1200</span>
+                            </div>
+                            <div class="total-product">
+                                <h5>Vat (21%)</h5>
+                                <span>€ 252</span>
+                            </div>
+                            <div class="total-product">
+                                <h5>Shipping Fee</h5>
+                                <span>€ 1,99</span>
+                            </div>
+                            <div class="total-product total-product-extra">
+                                <h5>Total</h5>
+                                <span>€ 1453,99</span>
+                            </div>
+                        </div>  
+                    </div>  
+                    <div class="g">
+                        <div class="social-icon-extra">
+                            <a href="#">
+                                <img src="assets/img/paypal-icon.jpg" alt="icon">
+                            </a>
+                            <a href="#">
+                                <img src="assets/img/stripe-icon.jpg" alt="icon">
+                            </a>
+                            <a href="#">
+                                <img src="assets/img/ideal-icon.jpg" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- delivery-section-item -->
+            </div>
+        </div>
+    </section>
+    <!-- delivery-section -->
+    <!-- footer-section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-all-content">
+                <div class="footer-leftsite">
+                    <a href="#">
+                        <img class="footer-logo" width="74px" height="74px" src="assets/img/footer-logo.png" alt="logo">
+                    </a>
+                    <p class="font-poppins">successfully completed over 200 
+                        large-scale projects for clients in 
+                        Bangladesh, including a significant 
+                        number of SaaS companies, 
+                        thriving startups, and educational 
+                        establishments.
+                    </p>
+                    <div class="footer-brand-logo">
+                        <a href="#">
+                            <img src="assets/img/paypal.png" alt="logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/stripe.png" alt="logo">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/id.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="nix-logo">
+                        <a href="#">
+                            <img src="assets/img/nix.png" alt="logo">
+                        </a>
+                        <span>< 18 years we do not sell alcohol < 25 years, show your ID</span>
+                    </div>
+                </div>
+                <div class="footer-rightsite">
+                    <div class="footer-all-page-content">
+                        <div class="footer-page">
+                            <h4>Pages</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-page footer-item">
+                            <h4>Food</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Spanish Foods</a>
+                                </li>
+                                <li>
+                                    <a href="#">Spanish Drinks</a>
+                                </li>
+                                <li>
+                                    <a href="#">Spanish Hampers & Gifts</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kitchenware</a>
+                                </li> 
+                            </ul>
+                        </div> 
+                        <div class="footer-page footer-social-item">
+                            <h4>Contact</h4>
+                            <div class="social">
+                                <a href="#">
+                                    <img src="assets/img/icon/fb-icon.svg" alt="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/icon/towi.svg" alt="icon">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/icon/lind.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="social-id">
+                                <div class="email-phone">
+                                    <img src="assets/img/icon/phone.svg" alt="icon">
+                                    <span>+880 1728247398</span>
+                                </div>
+                                <div class="email-phone">
+                                    <img src="assets/img/icon/email.svg" alt="icon">
+                                    <span>info@example.com</span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="footer-subscribe">
+                        <div class="input-button">
+                            <input type="text" placeholder="Your Email">
+                            <a href="#">
+                                Subscribe 
+                            </a>
+                        </div>
+                        <span>Get 15% of your first order by subscribing to our newsletter</span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
